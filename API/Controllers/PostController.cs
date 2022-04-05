@@ -21,6 +21,15 @@ namespace API.Controllers
             
         }
 
-        
+        [HttpPost("/addpost")]
+        public async Task<ActionResult<List<User>>> AddPost(Post post) // if the object reciev as parameter is a primitive data type [FromBody] is required 
+        {
+
+            _dataContext.Posts.Add(post);
+            await _dataContext.SaveChangesAsync();
+
+
+            return Ok(_dataContext.Posts.ToListAsync());
+        }
     }
 }

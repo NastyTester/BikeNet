@@ -6,9 +6,12 @@ import axios from 'axios';
 export default function Feed() {
     const [data, setData] = useState({ posts: [] });
 
+    // https://www.robinwieruch.de/react-hooks-fetch-data/
+    // https://www.youtube.com/watch?v=egITMrwMOPU&t=2s
+
     useEffect(async () => {
         const result = await axios(
-          'https://localhost:7134/Post/feed',
+          'https://localhost:7134/feed',
         );
             console.log(result)
         setData(result.data);
