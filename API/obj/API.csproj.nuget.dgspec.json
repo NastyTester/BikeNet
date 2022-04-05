@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alin\\Documents\\Codecool\\Advanced\\BikeNet\\API\\API.csproj": {}
+    "C:\\Users\\zucke\\Documents\\Advanced\\BikeNet\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alin\\Documents\\Codecool\\Advanced\\BikeNet\\API\\API.csproj": {
+    "C:\\Users\\zucke\\Documents\\Advanced\\BikeNet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alin\\Documents\\Codecool\\Advanced\\BikeNet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\zucke\\Documents\\Advanced\\BikeNet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Alin\\Documents\\Codecool\\Advanced\\BikeNet\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alin\\Documents\\Codecool\\Advanced\\BikeNet\\API\\obj\\",
+        "projectPath": "C:\\Users\\zucke\\Documents\\Advanced\\BikeNet\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\zucke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zucke\\Documents\\Advanced\\BikeNet\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\zucke\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
